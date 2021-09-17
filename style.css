@@ -1,0 +1,160 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+table{
+    width: 80%;
+    margin: 120px auto;
+    background: #3DB2FF;
+  
+    
+    
+}
+
+
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    
+   
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+    
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+     
+}
+
+
+#phoneNumber{
+     width:91%;
+      padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+    
+    
+    
+
+}
+#dateofbirth{
+    width:91%;
+      padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    
+    border-radius: 4px;
+
+}
+#gender{
+    width:97%;
+      padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    
+    border-radius: 4px;
+
+}
+
+
+
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+@media only screen and (max-width: 750px) {
+input[type="text"],input[type="number"]{
+    width:70%;
+}
+/*.tabledata{
+    width: 65%;
+}*/
+    #dateofbirth{
+    width:70%;
+    }
+    #gender{
+    width:87%;
+    }
+    #phoneNumber{
+     width:70%;
+    }
+
+.tabledata1 #storelist  {
+width: 100%;
+
+   }
+   .tabledata1 #storelist  thead #storelist{
+       
+       width: 100%;
+   }
+}
+@media only screen and (max-width: 300px) {
+
+.tabledata{
+    width: 65%;
+}
+
+}
+
+
+
+
+
+
+ 
+    
+    
+
+    
+
+    
+
